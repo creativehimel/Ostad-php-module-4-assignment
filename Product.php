@@ -20,10 +20,10 @@ class Product
 
     public function showDetails()
     {
-        echo "Product Details: <br>";
-        echo "-ID: $this->id <br>";
-        echo "-Name: $this->name <br>";
-        echo "-Price: $" . $this->getFormattedPrice() . "<br>";
+        echo "Product Details: \n";
+        echo "-ID: $this->id \n";
+        echo "-Name: $this->name \n";
+        echo "-Price: $" . $this->getFormattedPrice() . "\n";
     }
 }
 
